@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Calculator</h1>
+        <ul id="header-links">
+            <li><a href="https://github.com/Reuben-24/calculator" target="_blank" rel="noopener noreferrer">Usage</a></li>
+            <li><a href="https://github.com/Reuben-24" target="_blank" rel="noopener noreferrer">Author</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div id="calculator">
+
+            <output id="display"></output>
+            <div class="row" id="first-row">
+                <button class="operator calc-button" data-value="AC">AC</button>  
+                <button class="operator calc-button" data-value="DEL">DEL</button>
+            </div>
+            <div class="row" id="second-row">
+                <button class="digit calc-button" data-value="7">7</button>  
+                <button class="digit calc-button" data-value="8">8</button>
+                <button class="digit calc-button" data-value="9">9</button>  
+                <button class="operator calc-button" data-value="/">&divide</button>
+            </div>
+            <div class="row" id="third-row">
+                <button class="digit calc-button" data-value="4">4</button>  
+                <button class="digit calc-button" data-value="5">5</button>
+                <button class="digit calc-button" data-value="6">6</button>
+                <button class="operator calc-button" data-value="*">x</button>
+            </div>
+            <div class="row" id="fourth-row">
+                <button class="digit calc-button" data-value="1">1</button>
+                <button class="digit calc-button" data-value="2">2</button>
+                <button class="digit calc-button" data-value="3">3</button>
+                <button class="operator calc-button" data-value="-">-</button>
+            </div>
+            <div class="row" id="fifth-row">
+                <button class="operator calc-button" data-value=".">.</button>
+                <button class="digit calc-button" data-value="0">0</button>
+                <button id="equals" class="calc-button" data-value="=">=</button>
+                <button class="operator calc-button" data-value="+">+</button>
+            </div>
+        </div>
+    </main> 
+
+    <footer>
+        <small id="copyright">&copy; 2025 Reuben Faltiska Enterprises. All rights reserved.</small>
+    </footer>
+
+</body>
+</html>
